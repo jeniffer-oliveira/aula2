@@ -121,3 +121,10 @@ function alertMethod(this: HTMLElement, ev: Event) {
 
 const appHI: HTMLElement = document.getElementById('app.hi');
 appHI.innerHTML = title;
+
+class Greater {
+  greeting: string
+  constructor(message: string){
+    this.greeting = message
+  }
+}
